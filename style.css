@@ -1,1 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+.navbar{
+    height: 200px;
+    background-color: rgb(35, 35, 116);
+}
+.container{
+    height: 85vh;
+}
+
 
