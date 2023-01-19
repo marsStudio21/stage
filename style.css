@@ -4,12 +4,44 @@
     box-sizing: border-box;
     border: none;
 }
-.navbar{
-    height: 200px;
-    background-color: rgb(35, 35, 116);
+header{
+    background-color: #1c1c54;
+}
+.logo{
+    background-image: url(./logomarsStudio.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height:100px;
+}
+nav{
+    background-color: #1c1c54;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li {
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 24px;
+    color: yellow;
 }
 .container{
-    height: 85vh;
+    width: 80vw;
+    margin: 0px auto;
+
+}
+
+.heuro-img{
+    background-image: url(./Feature\ Hero\ Illustration@2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
 }
 
 
