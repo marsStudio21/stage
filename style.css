@@ -35,13 +35,22 @@ nav ul li a{
 
 }
 
+.mars-heuro{
+    background: linear-gradient(140.34deg, #390147 34.23%, #240572 159.33%);
+    display: flex;
+}
+.mars-usp{
+    width: 50%;
+}
+
 .heuro-img{
-    background-image: url(./Feature\ Hero\ Illustration@2x.png);
+    background-image: url(./hero.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 400px;
-    height: 400px;
-}
+    background-size: contain;
+ width: 50%;
+ height: 300px;
+ 
+} 
 
 
