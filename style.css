@@ -27,7 +27,7 @@ nav ul li {
 nav ul li a{
     text-decoration: none;
     font-size: 24px;
-    color: yellow;
+    color: #fbdd32;
 }
 .container{
     width: 80vw;
@@ -35,16 +35,37 @@ nav ul li a{
 
 }
 
-.mars-heuro{
+.mars-heuro {
     background: linear-gradient(140.34deg, #390147 34.23%, #240572 159.33%);
-    display: flex;
+    width: 100%;
+    padding-top: 100px;
+ 
 }
-.mars-usp{
-    width: 50%;
+.mars-heuro .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.heuro-usp h4,h1,p{
+  
+   color: white;
+}
+.heuro-usp h4{
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+.heuro-usp h1{
+   
+    margin-bottom: 22px;
+}
+
+.heuro-usp p{
+    font-size: 16px;
+    margin-bottom: 32px;
 }
 
 .heuro-img{
-    background-image: url(./hero.png);
+    background-image: url(./hero.img@2x.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -54,3 +75,15 @@ nav ul li a{
 } 
 
 
+.heuro-usp a  {
+   
+    border-radius: 24px;
+    color:black;
+    padding: 12px 8px;
+    /* font-weight: bolder; */
+    font-size: 18px;
+    background-color: #fbdd32;
+    /* margin-top: 16px; */
+    text-decoration: none;
+
+}
