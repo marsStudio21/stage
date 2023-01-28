@@ -87,3 +87,30 @@ nav ul li a{
     text-decoration: none;
 
 }
+
+.reseau{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.reseau-sociaux{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.facebook {
+    display: flex;
+    align-items: center;
+}
+.wazap {
+    display: flex;
+    align-items: center;
+}
+.mail {
+    display: flex;
+    align-items: center;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+}
